@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/_1sdp"
+    android:paddingBottom="@dimen/_1sdp"
+    android:weightSum="7">
+
+    <com.view.MTextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek1"
+        android:text="SUN"
+        android:textSize="@dimen/_14ssp"
+        app:customTypeFace="@string/systemMediumFont" />
+
+    <com.view.MTextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek2"
+        android:text="MON"
+        android:textSize="@dimen/_14ssp"
+        app:customTypeFace="@string/systemMediumFont" />
+
+    <com.view.MTextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek3"
+        android:text="TUE"
+        android:textSize="@dimen/_14ssp"
+        app:customTypeFace="@string/systemMediumFont" />
+
+    <com.view.MTextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek4"
+        android:text="WED"
+        android:textSize="@dimen/_14ssp"
+        app:customTypeFace="@string/systemMediumFont" />
+
+    <com.view.MTextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek5"
+        android:text="THU"
+        android:textSize="@dimen/_14ssp"
+        app:customTypeFace="@string/systemMediumFont" />
+
+    <com.view.MTextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek6"
+        android:text="FRI"
+        android:textSize="@dimen/_14ssp"
+        app:customTypeFace="@string/systemMediumFont" />
+
+    <com.view.MTextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek7"
+        android:text="SAT"
+        android:textSize="@dimen/_14ssp"
+        app:customTypeFace="@string/systemMediumFont" />
+</LinearLayout>

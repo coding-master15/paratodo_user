@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_35sdp"
+    android:background="@color/black_prj"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp">
+
+    <ImageView
+        android:id="@+id/leftButton"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:src="@mipmap/ic_arrow_right_prj"
+        android:tint="@color/white_prj" />
+
+    <LinearLayout
+        android:id="@+id/titleContainerView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.view.MTextView
+            android:id="@+id/dateTitle"
+            style="@style/CalendarView.MonthTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="dateTitle"
+            android:text="MONTH 2014"
+            android:textAllCaps="true"
+            android:textColor="@color/white_prj"
+            android:textSize="@dimen/_17ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+
+        <ImageView
+            android:id="@+id/arrowImgView"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:src="@mipmap/ic_arrow_right_prj"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/rightButton"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:src="@mipmap/ic_arrow_right_prj"
+        android:tint="@color/white_prj" />
+</RelativeLayout>

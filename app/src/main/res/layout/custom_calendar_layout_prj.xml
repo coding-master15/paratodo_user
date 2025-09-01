@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/titleLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:orientation="vertical"/>
+
+
+    <LinearLayout
+        android:id="@+id/calendarContentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/weekLayout"
+            layout="@layout/custom_calendar_weeks_layout_prj" />
+
+        <LinearLayout
+            android:id="@+id/daysContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="5dp">
+
+            <include layout="@layout/roboto_calendar_week_1_prj" />
+
+            <include layout="@layout/roboto_calendar_week_2_prj" />
+
+            <include layout="@layout/roboto_calendar_week_3_prj" />
+
+            <include layout="@layout/roboto_calendar_week_4_prj" />
+
+            <include layout="@layout/roboto_calendar_week_5_prj" />
+
+            <include layout="@layout/roboto_calendar_week_6_prj" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

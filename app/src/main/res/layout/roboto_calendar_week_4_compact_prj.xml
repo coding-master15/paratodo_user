@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:tag="weekRow4"
+    android:weightSum="7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfMonthContainer22">
+
+        <com.view.calendarview.DayView
+            style="@style/CalendarView.DayOfTheMonth"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:tag="dayOfMonthText22"
+            android:text="22"
+            android:textSize="@dimen/_14ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfMonthContainer23">
+
+        <com.view.calendarview.DayView
+            style="@style/CalendarView.DayOfTheMonth"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:tag="dayOfMonthText23"
+            android:text="23"
+            android:textSize="@dimen/_14ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfMonthContainer24">
+
+
+        <com.view.calendarview.DayView
+            style="@style/CalendarView.DayOfTheMonth"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:tag="dayOfMonthText24"
+            android:text="24"
+            android:textSize="@dimen/_14ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfMonthContainer25">
+
+        <com.view.calendarview.DayView
+            style="@style/CalendarView.DayOfTheMonth"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:tag="dayOfMonthText25"
+            android:text="25"
+            android:textSize="@dimen/_14ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfMonthContainer26">
+
+
+        <com.view.calendarview.DayView
+            style="@style/CalendarView.DayOfTheMonth"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:tag="dayOfMonthText26"
+            android:text="26"
+            android:textSize="@dimen/_14ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfMonthContainer27">
+
+        <com.view.calendarview.DayView
+            style="@style/CalendarView.DayOfTheMonth"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:tag="dayOfMonthText27"
+            android:text="27"
+            android:textSize="@dimen/_14ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="dayOfMonthContainer28">
+
+        <com.view.calendarview.DayView
+            style="@style/CalendarView.DayOfTheMonth"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:tag="dayOfMonthText28"
+            android:text="28"
+            android:textSize="@dimen/_14ssp"
+            app:customTypeFace="@string/systemMediumFont" />
+    </RelativeLayout>
+</LinearLayout>

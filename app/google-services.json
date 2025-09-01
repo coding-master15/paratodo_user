@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "828087557039",
+    "firebase_url": "https://vsystem-firebase-paratodo-default-rtdb.firebaseio.com",
+    "project_id": "vsystem-firebase-paratodo",
+    "storage_bucket": "vsystem-firebase-paratodo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828087557039:android:e3eeb5108b555c7a2f2d5a",
+        "android_client_info": {
+          "package_name": "com.paratodo.proveedor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828087557039-1c9j5kirt47hqcpc1h4vjm8qmoq3bqed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paratodo.proveedor",
+            "certificate_hash": "638baa3bd33015a8cc72e02d4b0a648878d27b52"
+          }
+        },
+        {
+          "client_id": "828087557039-uilv3m5bhkbbs660dbgt5r28e0cphu1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUmL5t8MO26K1pXQ1-yki_BltGePqaETg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828087557039-uilv3m5bhkbbs660dbgt5r28e0cphu1f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "828087557039-4obq9b1u6js1mjk7p969ogohv680pg53.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.paratodo.proveedor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828087557039:android:f2d50413e56eb4832f2d5a",
+        "android_client_info": {
+          "package_name": "com.paratodo.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828087557039-b5nui48baf93i9agodl9rh2ruhl2qr6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paratodo.user",
+            "certificate_hash": "638baa3bd33015a8cc72e02d4b0a648878d27b52"
+          }
+        },
+        {
+          "client_id": "828087557039-uilv3m5bhkbbs660dbgt5r28e0cphu1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUmL5t8MO26K1pXQ1-yki_BltGePqaETg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828087557039-uilv3m5bhkbbs660dbgt5r28e0cphu1f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "828087557039-4obq9b1u6js1mjk7p969ogohv680pg53.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.paratodo.proveedor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

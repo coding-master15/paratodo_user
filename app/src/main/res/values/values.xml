@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered_prj">true</bool>
+    <color name="black_prj">#030303</color>
+    <color name="card_background_prj">#ffffff</color>
+    <color name="card_loading_prj">#587fff</color>
+    <color name="card_shadow_prj">#10000000</color>
+    <color name="current_day_of_month_prj">#03A7E9</color>
+    <color name="day_disabled_background_color_prj">#ececec</color>
+    <color name="day_disabled_text_color_prj">#9c9c9c</color>
+    <color name="default_circle_indicator_fill_color_prj">#272727</color>
+    <color name="default_circle_indicator_page_color_prj">#00000000</color>
+    <color name="default_circle_indicator_stroke_color_prj">#272727</color>
+    <color name="default_shadow_color_prj">#88757575</color>
+    <color name="error_view_retry_btn_txt_color_prj">#bc4100</color>
+    <color name="error_view_retry_button_background_prj">#30000000</color>
+    <color name="error_view_retry_button_background_stroke_prj">#50000000</color>
+    <color name="error_view_text_dark_prj">#CC000000</color>
+    <color name="error_view_text_light_prj">#858585</color>
+    <color name="error_view_text_prj">#656565</color>
+    <color name="gray_prj">#90909090</color>
+    <color name="selected_day_background_prj">#03A7E9</color>
+    <color name="white_prj">#FFFFFF</color>
+    <dimen name="bottom_ellipsis_height_prj">4dp</dimen>
+    <dimen name="bottom_text_size_prj">12sp</dimen>
+    <dimen name="default_circle_indicator_radius_prj">5dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width_prj">2dp</dimen>
+    <dimen name="default_corner_radius_prj">4dp</dimen>
+    <dimen name="default_indicator_margin_horizontal">10dp</dimen>
+    <dimen name="default_indicator_margin_vertical">25dp</dimen>
+    <dimen name="default_shadow_radius_prj">4dp</dimen>
+    <dimen name="divider_gap_vert_prj">3dp</dimen>
+    <dimen name="divider_size_vert_prj">3dp</dimen>
+    <dimen name="fab_actions_spacing_prj">16dp</dimen>
+    <dimen name="fab_icon_size_prj">24dp</dimen>
+    <dimen name="fab_labels_margin_prj">8dp</dimen>
+    <dimen name="fab_plus_icon_size_prj">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke_prj">2dp</dimen>
+    <dimen name="fab_shadow_offset_prj">3dp</dimen>
+    <dimen name="fab_shadow_radius_prj">9dp</dimen>
+    <dimen name="fab_size_mini_prj">40dp</dimen>
+    <dimen name="fab_size_normal_prj">56dp</dimen>
+    <dimen name="fab_stroke_width_prj">1dp</dimen>
+    <dimen name="floating_label_text_size_prj">16sp</dimen>
+    <dimen name="inner_components_spacing_prj">8dp</dimen>
+    <dimen name="labels_text_size_prj">14sp</dimen>
+    <dimen name="minDayCellHeight_prj">40dp</dimen>
+    <item name="fab_expand_menu_button_prj" type="id"/>
+    <item name="fab_label_prj" type="id"/>
+    <integer name="default_circle_indicator_orientation_prj">0</integer>
+    <style name="CalendarView"/>
+    <style name="CalendarView.DayOfTheMonth">
+        <item name="android:textSize">14sp</item>
+        <item name="android:minHeight">@dimen/minDayCellHeight_prj</item>
+    </style>
+    <declare-styleable name="MButton"><attr format="string" name="customButtonTypeFace"/><attr format="dimension" name="minTextSize"/><attr format="boolean" name="textAutoResize"/><attr format="dimension" name="heightOfButton"/></declare-styleable>
+    <declare-styleable name="MTextView"><attr format="string" name="customTypeFace"/></declare-styleable>
+    <style name="CalendarView.DayOfTheWeek">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CalendarView.MonthTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
