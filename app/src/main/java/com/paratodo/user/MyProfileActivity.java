@@ -176,7 +176,12 @@ public class MyProfileActivity extends AppCompatActivity {
                 if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                     ArrayList<String> requestPermissions = new ArrayList<>();
                     requestPermissions.add(android.Manifest.permission.CAMERA);
-                    requestPermissions.add(android.Manifest.permission.READ_EXTERNAL_STORAGE);
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                        requestPermissions.add(android.Manifest.permission.READ_MEDIA_IMAGES);
+                    } else {
+                        requestPermissions.add(android.Manifest.permission.READ_EXTERNAL_STORAGE);
+                    }
+
                     if (generalFunc.isAllPermissionGranted(true,requestPermissions)) {
                         new ImageSourceDialog().run();
                     }
